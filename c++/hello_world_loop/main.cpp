@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int i = 0;
+    while(i <=0){
+        cout << "Hello World" << endl;
+        i++;
+    }
     return 0;
 }
