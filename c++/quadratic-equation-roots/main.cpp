@@ -20,7 +20,7 @@ int main()
     if (discriminant > 0){
         x1 = (-b + sqrt(discriminant)) / (2*a);
         x2 = (-b - sqrt(discriminant)) / (2*a);
-        cout << "The roots are: " << fixed << setprecision(2) << x1 << "and " << fixed << setprecision(2) << x2;
+        cout << "The roots are: " << fixed << setprecision(2) << x1 << " and " << fixed << setprecision(2) << x2;
         //cout("The roots are: " + to_string(x1) + "and" + to_string(x2));
     } else if (discriminant == 0){
         x = -b / (2 *a);
