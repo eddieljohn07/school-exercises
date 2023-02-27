@@ -11,7 +11,7 @@ int main()
     cout << "Please enter the width of the rectangle: ";
     cin >> width;
     float area = length * width;
-    cout << "The area of the reactangle is " << fixed << setprecision(2)<< area << "!";
+    cout << "The area of the reactangle is " << fixed << setprecision(2)<< area;
 
     return 0;
 }
