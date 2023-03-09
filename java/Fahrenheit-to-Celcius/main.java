@@ -6,4 +6,3 @@ public class Main {
       System.out.println((tempCelcius + (" degree celcius is ") + tempFahrenheit + (" degree fahrenheit")));
     }
 } 
-      
